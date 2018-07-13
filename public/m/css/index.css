@@ -1,43 +1,35 @@
-.nav-link{
-	padding:10px;
+.block_nav {
+    padding: 10px;
 }
-
-.nav-link a{
-	display:block;
-	width:33.333%;
-	float:left;
+.block_nav a{
+    display: block;
+    width: 33.33%;
+    float: left;
 }
-
-.nav-link a img{
-	width:100%;
-	vertical-align:top;
+.block_nav img {
+    display: block;
+    width: 100%;
 }
-
-.brand{
-	padding:0 10px;
+.brand>img {
+    width: 100%;
+    display: block;
 }
-
-.brand .title{
-	width:100%;
-	vertical-align:top;
+.brand ul li {
+    width: 25%;
+    float: left;
 }
-
-.brand .list{
-	padding:10px 0;
+.brand ul li img {
+    width: 100%;
+    display: block;
 }
-
-.brand .list li{
-	width:25%;
-	float:left;
+.product>img{
+    width: 100%;
+    display: block;
 }
-
-.brand .list a{
-	display:block;
+.product ul li  {
+    display: block;
+    width: 50%;
+    float: left;
 }
-
-.brand .list img{
-	width:100%;
-}
-
 
 

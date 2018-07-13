@@ -1,0 +1,56 @@
+html,body{
+	height:100%;
+}
+.my_container {
+    position: absolute;
+    top: 44px;
+    bottom: 50px;
+    width: 100%;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+.category_left {
+    float: left;
+    width: 80px;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+}
+.category_right {
+    margin-left: 90px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.mui-scroll-wrapper {
+    top: 0;
+    bottom: 0;
+}
+.category_left .mui-scroll a{
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.category_right a{
+    float: left;
+    width: 33.33%;
+}
+.category_right a img {
+    display: block;
+    width: 90%;
+    padding-top: 5px;
+}
+.category_right .mui-scroll {
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 5px;
+}
+.category_right .mui-scroll span {
+    font-size: 12px;
+    color: #8f8f94;
+    display: block;
+    text-align: center;
+}
